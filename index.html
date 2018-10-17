@@ -13,8 +13,73 @@
   <div class="container">
     <!-- Write your code here -->
     <div class="row">
-      <div class="col"></div>
+      <div class="col">
+          <h3>Meet Guidebooks</h3>
+          <p>Discover hundreds of local spots recommended by Airbnb hosts</p>
+      </div>
+    </div>
+
+    <div class="row offset-sm-1" >
+        <div class="col-sm-3 box" id="box1">
+            <span onclick="open1()">San Francisco</span>
+        </div>
+        <div class="col-sm-3 box" id="box2">
+            <span>New York</span>
+        </div>
+        <div class="col-sm-3 box" id="box3">
+            <span>London</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3 offset-sm-4">
+            <button onclick="alertFuncBut1()">See All Guidebooks</button>
+        </div>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <h3>Just for the weekend</h3>
+          <p>Discover new, inspiring places close to home</p>
+      </div>
+    </div>
+
+    <div class="row offset-sm-1" >
+        <div class="col-sm-3 box" id="box4">
+            <span>Napa</span>
+        </div>
+        <div class="col-sm-3 box" id="box5">
+            <span>Sonoma</span>
+        </div>
+        <div class="col-sm-3 box" id="box6">
+            <span>San Francisco</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3 offset-sm-4">
+            <button onclick="alertFuncBut2()">See All Destinations</button>
+        </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    function alertFuncBut1(){
+        alert("This feature isn't done yet");
+    }
+
+    function alertFuncBut2(){
+        alert("This feature isn't done yet");
+    }
+
+    function open1(){
+        window.open("https://www.google.com.sg/maps/place/Sonoma,+CA+95476,+USA/@38.291092,-122.4666091,14z/data=!3m1!4b1!4m5!3m4!1s0x8085ac43817b9d77:0x380ed210ee6e045!8m2!3d38.291859!4d-122.4580356?hl=en");
+    }
+  </script>
+
 </body>
 </html>
